@@ -1,0 +1,19 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Main template, the root page of your single page app
+GET     /                                        controllers.Application.index
+
+# All HTML templates, prefixed by /views
+
+
+# REST API consuming and serving JSON, prefixed by /api
+
+
+# Realtime
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file                            controllers.Assets.at(path="/public", file)
+
